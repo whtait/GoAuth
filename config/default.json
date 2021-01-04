@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://warren123:warren123@devconnector.b2jnh.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtAccess": "fg924fg#549FDK"
+}

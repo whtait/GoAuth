@@ -1,0 +1,27 @@
+{
+  "name": "dynamic_log-in_page",
+  "version": "1.0.0",
+  "description": "SPA React application, composed with React Router, Node.js/Express, NoSQL DB, JWT, BCrypt, & Express Validator.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Warren Tait",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
