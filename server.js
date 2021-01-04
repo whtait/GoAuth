@@ -4,7 +4,7 @@ const connectDB = require('./config/db');
 // This command will start the server.
 const app = express();
 
-// Connect to the Database.
+// Connect to the Database!
 connectDB();
 
 // Initialize middleware, allowing us to read req.body.
