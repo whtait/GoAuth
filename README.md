@@ -1,3 +1,3 @@
 Thanks for viewing my project!
 
-Run the command "npm run dev" to test the project, when you're in the root directory.
+When you're in the root directory, run the command "npm run dev" to test the project.
